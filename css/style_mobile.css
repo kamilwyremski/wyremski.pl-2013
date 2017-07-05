@@ -1,0 +1,75 @@
+﻿body{
+	background: url(../img/background.png); 
+}
+#site{
+height:100%;
+margin-bottom:-30px;
+min-width: 350px;
+}
+#leftSection{
+position: absolute;
+margin-top:-40px;
+left:0px;
+display: block;
+min-height: 340px;
+max-height: 340px;
+width:100%;
+}
+#leftSection p{
+display:none;
+}
+#leftSectionUp, #leftSectionDown{
+display:none;
+}
+#rightSection {
+display:block;
+top: 315px;
+left: 0px;
+min-width: 300px;
+margin-left:0px;
+}
+#language  {
+margin-left:auto;
+margin-right:auto;
+min-width: 200px;
+}
+#menu {
+height: 190px;
+margin-left:auto;
+margin-right:auto;
+width: 320px;
+}
+.content {
+margin-top: 40px;
+height: auto;
+width: 100%;
+margin-bottom:100px;
+}
+.content.scroll-pane {
+width: 95%;
+}
+#profileImg{
+display:none;
+}
+#resume{
+height: 1400px;
+}
+.portfolioLeft{
+width: 90%;
+}
+.portfolioRight {
+display:none;
+}
+#contact {
+height: 750px;
+}
+#keepInTouchCase {
+margin-bottom: 50px;
+}
+#contactInfo {
+width: 90%;
+display:block;
+}
+#contactTable {
+display:block;
+}

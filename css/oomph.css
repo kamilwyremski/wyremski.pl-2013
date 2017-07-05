@@ -1,0 +1,402 @@
+﻿#iwmf
+{
+	position:fixed;
+	top:0;
+	left:0;
+	line-height: 11px;
+	font: 11px "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Lucida, Verdana, sans-serif;
+	color:#ccc;
+	text-align:left;
+	z-index:256;
+	margin:0;
+	padding:0;
+	border:0;
+	width:auto;
+}
+
+#iwmf div, #iwmf span {
+color:#ccc;
+text-align:left;
+padding:0;
+margin:0;
+border:0;
+font-size:11px;
+font-family: "Lucida Grande","Lucida Sans Unicode", Helvetica, Arial, Lucida, Verdana, sans-serif;
+background:none;
+background-color:none;
+width:auto;
+}
+
+
+#iwmf a
+{
+	color:#ccc;
+	text-decoration:none;
+}
+
+#iwmf a:hover
+{
+	color:#fff;
+	text-decoration:underline;
+}
+
+#iwmf a:visited
+{
+	color:#ccc;
+	text-decoration:none;
+}
+
+#iwmf a:active
+{
+	color:#ccc;
+	text-decoration:underline;
+}
+
+#iwmf ul
+{
+	margin:0;
+	padding:0;
+}
+
+#iwmf li
+{
+	list-style:none;
+	margin:0px;
+	padding:0;
+}
+
+#iwmf #iwmf_mainContainer
+{
+	/* width: 100%; */
+	margin:0;
+	padding:0;
+	background-image:url('http://visitmix.com/labs/oomph/2.0/client/images/50x50_bg.png');
+	background-repeat:repeat;
+	display:none;
+}
+
+#iwmf .iwmf_box
+{
+	margin:20px 0 20px 20px;
+	padding-right:20px;
+	float:left;
+	width:240px;
+	border-right:1px solid #333;
+	height:100%;
+}
+
+#iwmf #clear
+{
+	clear:both;
+}
+
+#iwmf #shadow
+{
+	clear:both;
+	background-image:url('http://visitmix.com/labs/oomph/2.0/client/images/bottom_shadow.png');
+	min-height:23px;
+}
+
+
+#iwmf #iwmf_mapFrame
+{
+	width:200px;
+	overflow:hidden;
+	min-height:200px;
+	margin:20px;
+	padding-right:20px;
+	float:left;
+	position:relative;
+	border-right:1px solid #fff;
+}
+
+#iwmf .iwmf_typeHead
+{
+	margin:0 0 20px 0;
+	text-transform:uppercase;
+}
+
+#iwmf .iwmf_Next
+{
+	float:right;
+	margin-right:10px;
+	font-size:.8em;
+	text-transform:uppercase;
+}
+
+#iwmf .iwmf_Prev
+{
+	float:right;
+	margin-right:10px;
+	font-size:.8em;
+	text-transform:uppercase;
+}
+
+#iwmf #iwmf_gleam
+{
+	float:left;
+	margin:0;
+	padding:0 0 0 10px;
+	width:22px;
+	height:26px;
+	background-image:url('http://visitmix.com/labs/oomph/2.0/client/images/oomphGleam.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-color:#000000;
+	cursor:pointer;
+}
+
+#iwmf #iwmf_mainNavContainer
+{
+	background-color:#000000;
+	padding-top:2px;
+	margin:0px;
+	width:auto;
+	height:24px;
+	display:none;
+}
+
+#iwmf .iwmf_green
+{
+	color:#6aa339;
+}
+
+#iwmf #iwmf_info
+{
+	float:left;
+	font-size:10px;
+	height:18px;
+	margin-top:2px;
+	color:#999;
+	text-transform:uppercase;
+}
+
+#iwmf #iwmf_closeButton
+{
+	float:right;
+	width:30px;
+	height:17px;
+	background-image:url('http://visitmix.com/labs/oomph/2.0/client/images/closeIcon.png');
+	background-repeat:no-repeat;
+	margin:2px 20px 0 10px;
+}
+
+
+#iwmf .iwmf_photo
+{
+	height:140px;
+	width:114px;
+	float:left;
+	border:5px solid #333;
+	margin-right:10px;
+	clear:both;
+}
+
+#iwmf .iwmf_netBar
+{
+	padding:10px 5px 0 0;
+	margin-top:10px;
+	height:100%;
+}
+
+#iwmf .iwmf_netBar img
+{
+	border:0;
+}
+
+#iwmf .iwmf_netBar ul
+{
+	margin:0;
+	padding:0;
+}
+
+#iwmf .iwmf_netBar li
+{
+	display:inline;
+	margin:0px 10px 0px 0px;
+}
+
+#iwmf .iwmf_iconOutlook a:link,
+#iwmf .iwmf_iconOutlook a
+
+{
+	background:transparent url('http://visitmix.com/labs/oomph/2.0/client/images/outlook.png') no-repeat scroll 0 50%;
+	display:block;
+	height:16px;
+	float:left;
+	text-indent:-5000px;
+	width:16px;
+	padding:5px;
+	
+
+}
+
+#iwmf .iwmf_iconLive a:link,
+#iwmf .iwmf_iconLive a
+
+{
+	background:transparent url('http://visitmix.com/labs/oomph/2.0/client/images/live.png') no-repeat scroll 0 50%;
+	display:block;
+	height:16px;
+	float:left;
+	text-indent:-5000px;
+	width:16px;
+	padding:5px;
+}
+
+#iwmf .iwmf_iconGoogle a:link,
+#iwmf .iwmf_iconGoogle a
+
+{
+	background:transparent url('http://visitmix.com/labs/oomph/2.0/client/images/google.png') no-repeat scroll 0 50%;
+	display:block;
+	float:left;
+	height:16px;
+	text-indent:-5000px;
+	width:16px;
+	padding:5px;
+}
+
+#iwmf .iwmf_iconYahoo a:link,
+#iwmf .iwmf_iconYahoo a
+
+{
+	background:transparent url('http://visitmix.com/labs/oomph/2.0/client/images/yahoo.png') no-repeat scroll 0 50%;
+	display:inline-block;
+	height:16px;
+	float:left;
+	text-indent:-5000px;
+	width:27px;
+	padding:5px;
+}
+
+#iwmf .iwmf_iconApple a:link,
+#iwmf .iwmf_iconApple a 
+
+{
+	background:transparent url('http://visitmix.com/labs/oomph/2.0/client/images/apple.png') no-repeat scroll 0 50%;
+	display:block;
+	height:16px;
+	float:left;
+	text-indent:-5000px;
+	width:16px;
+	padding:5px;
+}
+
+#iwmf .iwmf_icon30b a:link,
+#iwmf .iwmf_icon30b a
+
+{
+	background:transparent url('http://visitmix.com/labs/oomph/2.0/client/images/30boxes.png') no-repeat scroll 0 50%;
+	display:block;
+	height:16px;
+	float:left;
+	text-indent:-5000px;
+	width:16px;
+	padding:5px;
+}
+
+
+#iwmf .iwmf_summary
+{
+	font-size:16px;
+	margin-bottom:5px;
+}
+
+#iwmf .iwmf_fn
+{
+	font-size:16px;
+	margin-bottom:5px;
+}
+
+#iwmf .iwmf_org
+{
+	font-size:12px;
+}
+
+#iwmf .iwmf_dtend
+{
+}
+
+#iwmf .iwmf_geo
+{
+}
+
+#iwmf .iwmf_category
+{
+}
+
+#iwmf .iwmf_url
+{
+	font-weight:bold;
+	margin-bottom:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #333;
+}
+#iwmf .iwmf_country-name
+{
+}
+
+#iwmf .iwmf_description
+{
+	margin-top:10px;
+}
+
+#iwmf .iwmf_given-name
+{
+	font-size:16px;
+	margin-bottom:5px;
+}
+
+#iwmf .iwmf_family-name
+{
+	font-size:16px;
+	margin-bottom:5px;
+}
+
+
+#iwmf .iwmf_vEventContainer
+{
+	width:100%;
+}
+
+#iwmf .iwmf_hCardContainer
+{
+	width:100%;
+}
+
+#iwmf .iwmf_hCardContainer
+{
+	width:100%;
+}
+
+#iwmf .iwmf_hAudioContainer
+{
+	width:100%;
+}
+
+
+#iwmf #iwmf_mainEventContainer
+{
+	float:left;
+	display:inline;
+	width:20%;
+}
+
+#iwmf #iwmf_mainhCardContainer
+{
+	float:left;
+	display:inline;
+	width:20%;
+}
+#iwmf #iwmf_mainhAudioContainer
+{
+	float:left;
+	display:inline;
+	width:20%;
+}
+#iwmf .iwmf_hmediaphoto
+{
+	max-width:220px;
+	border:5px #666 solid;
+}
